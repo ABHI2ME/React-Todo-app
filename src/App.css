@@ -1,0 +1,165 @@
+.container{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: #538dd7;
+  padding-top: 2rem;
+}
+.main{
+   width: 30rem;
+   display:flex;
+   align-items: center;
+   flex-direction: column;
+   box-sizing: border-box;
+}
+.main-image{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 3rem;
+  width: 100%;
+  height: 2rem;
+}
+.main-image-img{
+   height: 3.8rem;
+   width: auto;
+}
+.main-input{
+  /* margin: 0;
+  padding: 0; */
+  width: 100%;
+  display: flex;
+  height: 3rem;
+  box-sizing: border-box ;
+  margin-bottom:1.3rem;
+}
+.main-input input{
+    margin:  0 ;
+    padding: 0;
+    border: 1px solid black;
+    width: 100%-50px;
+    height: 3rem;
+    outline: none;
+    padding-left: 0.7rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    border-right: none;
+    box-sizing: border-box;
+
+
+}
+.main-input input::placeholder{
+  padding-left: 1rem;
+  font-weight: 500;
+  font-size: 15px;
+
+}
+
+.main-input button{
+  border: 1px solid black;
+  padding: 0 ;
+  width: 50px ;
+  height: 3rem ;
+  border: 1px solid black ;
+  display: flex ;
+  align-items: center ;
+  justify-content: center;
+  text-align: center;
+  vertical-align: middle;
+  border-left: none;
+  cursor: pointer;
+  background-color: white;
+
+}
+.main-input-i{
+  height: 20px;
+  transition: 0.15s color;
+  cursor: pointer;
+}
+.main-input-i:hover{
+  color: green;
+}
+.checklist{
+  display: flex; 
+  justify-content : center;
+  height: 3rem;
+  width: 9rem;
+}
+.checklist-btn{
+   height: 3rem;
+   width: 9rem;
+   cursor: pointer;
+   font-family: Arial, Helvetica, sans-serif ;
+   letter-spacing: 1px;
+   font-weight: 500;
+   font-size: 15px;
+
+}
+.new-div-container{
+  width: 100%;
+  height: auto;
+  display: flex;
+  box-sizing: border-box;
+  flex-direction: column;
+
+}
+.new-div{
+  position: relative;
+  height: 3rem;
+  width:30rem ;
+  display: inline-flex;
+  align-items: center;
+  border: 1px solid black;
+  box-sizing: border-box;
+  background-color: #285084;
+  border-radius: 4px;
+  margin-bottom: 0.8rem;
+
+}
+.new-div-input{
+  margin-left: 0.3rem;
+  height: 20px;
+  width: 20px;
+  outline: none;
+}
+.new-div-text{
+  color: white;
+  display: inline-flex; /* Make span a flex container */
+  align-items: center; /* Vertically align text inside the span */
+  margin: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 18px;
+  padding-left: 0.5rem;
+}
+.crossed{
+  text-decoration: line-through;
+}
+.new-div-delete{
+  display: flex;
+  align-items: center;
+  flex-direction: row-reverse;
+}
+.new-div-operation{
+  display: flex;
+  align-items: center;
+  width: auto;
+}
+.new-div-edit-btn{
+  position: absolute;
+  right: 2.5rem;
+  color: black;
+  height: 25px;
+  width: auto;
+  cursor: pointer;
+}
+.new-div-edit-btn:hover{
+  color: rgb(72, 207, 72);
+}
+.new-div-delete-btn{
+  position: absolute;
+  right: 0.2rem;
+  width: auto;
+  height:30px;
+  color: rgb(197, 40, 40);
+  cursor: pointer;
+}
